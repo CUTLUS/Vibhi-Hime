@@ -1,9 +1,4 @@
-import discord
-from discord.ext import commands
-import os
-import praw
-import random
-from decouple import config
+
 from bs4 import BeautifulSoup
 import requests
 
