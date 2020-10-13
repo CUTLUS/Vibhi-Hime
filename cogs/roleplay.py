@@ -64,7 +64,7 @@ class Rp(commands.Cog):
 
     @commands.command()
     async def updaterp(self,ctx,amt=5):
-        if ctx.author.id == 666578281142812673:
+        if ctx.author.id == 765575027381895168:
             API_KEY = config("TENOR_KEY")
             r = requests.get(f"https://api.tenor.com/v1/anonid?&key={API_KEY}")
             rp = db.child("RP").child("CMD").get().val()
